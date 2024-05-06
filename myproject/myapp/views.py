@@ -88,4 +88,5 @@ def teacherhome(request):
     return render(request,'teacherhome.html')
 
 def home(request):
+    print('welcome to my project')
     return render(request,'home.html')
